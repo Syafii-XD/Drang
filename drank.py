@@ -21,6 +21,7 @@ from bs4 import BeautifulSoup
 from datetime import date
 from datetime import datetime
 from urllib.parse import quote
+ses = requests.Session()
 ##### BUAT WARNA >>>> X
 Z = "\x1b[0;90m"     # Hitam
 M2 = "\x1b[38;5;196m" # Merah

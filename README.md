@@ -12,11 +12,11 @@
 
 # git clone https://github.com/Syafii-XD/elite
 
-# cd elite
+# cd Drang
 
 # git pull
 
-# python elite.py
+# python drank.py
 
 
 

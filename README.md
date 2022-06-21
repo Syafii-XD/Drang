@@ -10,7 +10,7 @@
 
 # pip install futures
 
-# git clone https://github.com/Syafii-XD/elite
+# git clone https://github.com/Syafii-XD/Drang
 
 # cd Drang
 

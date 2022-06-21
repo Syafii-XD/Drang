@@ -1419,7 +1419,7 @@ def cek_log(uid,pw,ua):
 		jalan(f"\r{P}[•]{K}>>>>>>----> {B}{uid}•{pw}")
 
 def cek_game(cookie):
-	w=s.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies=cookie).text
+	w=ses.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies=cookie).text
 	sop = parser(w,"html.parser")
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]

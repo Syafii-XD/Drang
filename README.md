@@ -16,7 +16,7 @@
 
 # git pull
 
-# python drank.py
+# python premium.py
 
 
 

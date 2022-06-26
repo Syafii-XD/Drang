@@ -16,7 +16,7 @@
 
 # git pull
 
-# python premium.py
+# python run.py
 
 
 
